@@ -1,0 +1,1771 @@
+Start time: 2018-05-18 16:07:04
+===== Argument List =====
+Source Language: en
+Target Language: es
+Embedding Dimension: 300
+Vocabulary Size (for both): 200000
+Discriminator Hidden Layer Dimension: 2048
+Discriminator Hidden Dropout: 0.00
+Discriminator Input Dropout: 0.10
+Learning Rate: 0.10
+Decay: 0.95
+Number of Epochs: 50
+Number of Iterations per Epoch: 200000
+Batch Size: 200000
+Number of Steps for Discriminator: 200000
+Number of Most Frequent Words Fed into Discriminator: 75000
+Discriminator Smothiness: 0.1
+Orthogonality Update Coefficient: 0.001
+loaded 200000 pre-trained en word embeddings
+loaded 200000 pre-trained es word embeddings
+===== ADVERSARIAL TRAINING =====
+
+start epoch 0
+iteration 0, loss 0.6626
+iteration 12000, loss 0.4874
+iteration 24000, loss 0.5148
+iteration 36000, loss 0.4164
+iteration 48000, loss 0.4684
+iteration 60000, loss 0.4093
+iteration 72000, loss 0.4104
+iteration 84000, loss 0.4136
+iteration 96000, loss 0.4455
+iteration 108000, loss 0.4805
+iteration 120000, loss 0.3914
+iteration 132000, loss 0.4168
+iteration 144000, loss 0.4113
+iteration 156000, loss 0.3925
+iteration 168000, loss 0.3837
+iteration 180000, loss 0.4212
+iteration 192000, loss 0.4034
+csls unsupervised metric score: -0.01453
+cross-lingual word similarity score average: 0.24641
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 0.369748
+1500 unique source words - nn - Precision at k = 1: 0.733333
+2975 source words - nn - Precision at k = 5: 1.075630
+1500 unique source words - nn - Precision at k = 5: 2.000000
+2975 source words - nn - Precision at k = 10: 1.579832
+1500 unique source words - nn - Precision at k = 10: 2.933333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 0.436975
+1500 unique source words - csls_knn_10 - Precision at k = 1: 0.866667
+2975 source words - csls_knn_10 - Precision at k = 5: 1.714286
+1500 unique source words - csls_knn_10 - Precision at k = 5: 3.266667
+2975 source words - csls_knn_10 - Precision at k = 10: 2.521008
+1500 unique source words - csls_knn_10 - Precision at k = 10: 4.600000
+
+start epoch 1
+iteration 0, loss 0.4537
+iteration 12000, loss 0.4307
+iteration 24000, loss 0.3913
+iteration 36000, loss 0.4435
+iteration 48000, loss 0.4022
+iteration 60000, loss 0.4290
+iteration 72000, loss 0.4327
+iteration 84000, loss 0.4060
+iteration 96000, loss 0.4814
+iteration 108000, loss 0.4250
+iteration 120000, loss 0.4307
+iteration 132000, loss 0.3890
+iteration 144000, loss 0.4314
+iteration 156000, loss 0.4681
+iteration 168000, loss 0.4501
+iteration 180000, loss 0.4304
+iteration 192000, loss 0.4347
+csls unsupervised metric score: 0.06369
+cross-lingual word similarity score average: 0.64614
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 24.840336
+1500 unique source words - nn - Precision at k = 1: 49.266667
+2975 source words - nn - Precision at k = 5: 46.184874
+1500 unique source words - nn - Precision at k = 5: 66.400000
+2975 source words - nn - Precision at k = 10: 53.714286
+1500 unique source words - nn - Precision at k = 10: 71.333333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 29.815126
+1500 unique source words - csls_knn_10 - Precision at k = 1: 59.133333
+2975 source words - csls_knn_10 - Precision at k = 5: 54.218487
+1500 unique source words - csls_knn_10 - Precision at k = 5: 74.933333
+2975 source words - csls_knn_10 - Precision at k = 10: 62.050420
+1500 unique source words - csls_knn_10 - Precision at k = 10: 80.266667
+
+start epoch 2
+iteration 0, loss 0.4119
+iteration 12000, loss 0.4564
+iteration 24000, loss 0.4092
+iteration 36000, loss 0.4342
+iteration 48000, loss 0.4341
+iteration 60000, loss 0.4306
+iteration 72000, loss 0.4245
+iteration 84000, loss 0.4340
+iteration 96000, loss 0.4183
+iteration 108000, loss 0.4137
+iteration 120000, loss 0.4072
+iteration 132000, loss 0.4025
+iteration 144000, loss 0.4109
+iteration 156000, loss 0.4260
+iteration 168000, loss 0.4049
+iteration 180000, loss 0.4289
+iteration 192000, loss 0.4024
+csls unsupervised metric score: 0.11957
+cross-lingual word similarity score average: 0.66726
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 32.705882
+1500 unique source words - nn - Precision at k = 1: 64.866667
+2975 source words - nn - Precision at k = 5: 57.008403
+1500 unique source words - nn - Precision at k = 5: 80.066667
+2975 source words - nn - Precision at k = 10: 63.966387
+1500 unique source words - nn - Precision at k = 10: 83.200000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 36.537815
+1500 unique source words - csls_knn_10 - Precision at k = 1: 72.466667
+2975 source words - csls_knn_10 - Precision at k = 5: 63.394958
+1500 unique source words - csls_knn_10 - Precision at k = 5: 85.866667
+2975 source words - csls_knn_10 - Precision at k = 10: 70.655462
+1500 unique source words - csls_knn_10 - Precision at k = 10: 88.666667
+
+start epoch 3
+iteration 0, loss 0.3878
+iteration 12000, loss 0.4002
+iteration 24000, loss 0.3996
+iteration 36000, loss 0.3753
+iteration 48000, loss 0.4005
+iteration 60000, loss 0.4068
+iteration 72000, loss 0.3841
+iteration 84000, loss 0.4323
+iteration 96000, loss 0.3806
+iteration 108000, loss 0.3863
+iteration 120000, loss 0.4122
+iteration 132000, loss 0.4020
+iteration 144000, loss 0.4138
+iteration 156000, loss 0.3772
+iteration 168000, loss 0.4044
+iteration 180000, loss 0.4375
+iteration 192000, loss 0.3952
+csls unsupervised metric score: 0.13216
+cross-lingual word similarity score average: 0.67845
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 34.588235
+1500 unique source words - nn - Precision at k = 1: 68.600000
+2975 source words - nn - Precision at k = 5: 59.327731
+1500 unique source words - nn - Precision at k = 5: 82.400000
+2975 source words - nn - Precision at k = 10: 66.756303
+1500 unique source words - nn - Precision at k = 10: 86.400000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 38.016807
+1500 unique source words - csls_knn_10 - Precision at k = 1: 75.400000
+2975 source words - csls_knn_10 - Precision at k = 5: 64.773109
+1500 unique source words - csls_knn_10 - Precision at k = 5: 86.800000
+2975 source words - csls_knn_10 - Precision at k = 10: 72.033613
+1500 unique source words - csls_knn_10 - Precision at k = 10: 89.866667
+
+start epoch 4
+iteration 0, loss 0.3858
+iteration 12000, loss 0.3977
+iteration 24000, loss 0.4101
+iteration 36000, loss 0.3933
+iteration 48000, loss 0.4017
+iteration 60000, loss 0.4076
+iteration 72000, loss 0.3769
+iteration 84000, loss 0.4367
+iteration 96000, loss 0.3702
+iteration 108000, loss 0.3803
+iteration 120000, loss 0.3699
+iteration 132000, loss 0.3678
+iteration 144000, loss 0.4005
+iteration 156000, loss 0.4260
+iteration 168000, loss 0.3988
+iteration 180000, loss 0.3974
+iteration 192000, loss 0.3831
+csls unsupervised metric score: 0.11974
+cross-lingual word similarity score average: 0.68383
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 32.739496
+1500 unique source words - nn - Precision at k = 1: 64.933333
+2975 source words - nn - Precision at k = 5: 57.277311
+1500 unique source words - nn - Precision at k = 5: 80.133333
+2975 source words - nn - Precision at k = 10: 64.806723
+1500 unique source words - nn - Precision at k = 10: 83.666667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 36.974790
+1500 unique source words - csls_knn_10 - Precision at k = 1: 73.333333
+2975 source words - csls_knn_10 - Precision at k = 5: 63.495798
+1500 unique source words - csls_knn_10 - Precision at k = 5: 85.933333
+2975 source words - csls_knn_10 - Precision at k = 10: 71.058824
+1500 unique source words - csls_knn_10 - Precision at k = 10: 88.800000
+
+start epoch 5
+iteration 0, loss 0.3779
+iteration 12000, loss 0.3701
+iteration 24000, loss 0.4008
+iteration 36000, loss 0.4227
+iteration 48000, loss 0.3850
+iteration 60000, loss 0.3861
+iteration 72000, loss 0.4044
+iteration 84000, loss 0.3845
+iteration 96000, loss 0.4049
+iteration 108000, loss 0.4086
+iteration 120000, loss 0.3743
+iteration 132000, loss 0.3807
+iteration 144000, loss 0.3832
+iteration 156000, loss 0.3661
+iteration 168000, loss 0.3708
+iteration 180000, loss 0.3933
+iteration 192000, loss 0.4034
+csls unsupervised metric score: 0.11282
+cross-lingual word similarity score average: 0.68847
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.697479
+1500 unique source words - nn - Precision at k = 1: 54.933333
+2975 source words - nn - Precision at k = 5: 49.008403
+1500 unique source words - nn - Precision at k = 5: 68.400000
+2975 source words - nn - Precision at k = 10: 56.605042
+1500 unique source words - nn - Precision at k = 10: 71.866667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 30.957983
+1500 unique source words - csls_knn_10 - Precision at k = 1: 61.400000
+2975 source words - csls_knn_10 - Precision at k = 5: 55.159664
+1500 unique source words - csls_knn_10 - Precision at k = 5: 74.266667
+2975 source words - csls_knn_10 - Precision at k = 10: 63.159664
+1500 unique source words - csls_knn_10 - Precision at k = 10: 77.600000
+
+start epoch 6
+iteration 0, loss 0.3820
+iteration 12000, loss 0.4071
+iteration 24000, loss 0.3689
+iteration 36000, loss 0.4116
+iteration 48000, loss 0.3904
+iteration 60000, loss 0.3706
+iteration 72000, loss 0.3937
+iteration 84000, loss 0.3836
+iteration 96000, loss 0.3886
+iteration 108000, loss 0.3788
+iteration 120000, loss 0.3596
+iteration 132000, loss 0.3838
+iteration 144000, loss 0.3801
+iteration 156000, loss 0.3792
+iteration 168000, loss 0.3640
+iteration 180000, loss 0.3734
+iteration 192000, loss 0.3618
+csls unsupervised metric score: 0.10250
+cross-lingual word similarity score average: 0.67499
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.789916
+1500 unique source words - nn - Precision at k = 1: 53.133333
+2975 source words - nn - Precision at k = 5: 48.100840
+1500 unique source words - nn - Precision at k = 5: 66.600000
+2975 source words - nn - Precision at k = 10: 55.697479
+1500 unique source words - nn - Precision at k = 10: 70.866667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 30.050420
+1500 unique source words - csls_knn_10 - Precision at k = 1: 59.600000
+2975 source words - csls_knn_10 - Precision at k = 5: 54.857143
+1500 unique source words - csls_knn_10 - Precision at k = 5: 73.400000
+2975 source words - csls_knn_10 - Precision at k = 10: 62.453782
+1500 unique source words - csls_knn_10 - Precision at k = 10: 76.933333
+
+start epoch 7
+iteration 0, loss 0.3733
+iteration 12000, loss 0.3804
+iteration 24000, loss 0.3551
+iteration 36000, loss 0.3726
+iteration 48000, loss 0.3659
+iteration 60000, loss 0.3733
+iteration 72000, loss 0.3704
+iteration 84000, loss 0.3643
+iteration 96000, loss 0.3695
+iteration 108000, loss 0.3732
+iteration 120000, loss 0.3802
+iteration 132000, loss 0.3580
+iteration 144000, loss 0.3621
+iteration 156000, loss 0.3642
+iteration 168000, loss 0.3869
+iteration 180000, loss 0.3803
+iteration 192000, loss 0.3580
+csls unsupervised metric score: 0.08203
+cross-lingual word similarity score average: 0.63429
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 22.319328
+1500 unique source words - nn - Precision at k = 1: 44.266667
+2975 source words - nn - Precision at k = 5: 43.630252
+1500 unique source words - nn - Precision at k = 5: 60.866667
+2975 source words - nn - Precision at k = 10: 50.554622
+1500 unique source words - nn - Precision at k = 10: 65.533333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.058824
+1500 unique source words - csls_knn_10 - Precision at k = 1: 53.666667
+2975 source words - csls_knn_10 - Precision at k = 5: 51.462185
+1500 unique source words - csls_knn_10 - Precision at k = 5: 70.133333
+2975 source words - csls_knn_10 - Precision at k = 10: 58.857143
+1500 unique source words - csls_knn_10 - Precision at k = 10: 74.000000
+
+start epoch 8
+iteration 0, loss 0.3594
+iteration 12000, loss 0.3844
+iteration 24000, loss 0.3783
+iteration 36000, loss 0.3829
+iteration 48000, loss 0.3855
+iteration 60000, loss 0.3725
+iteration 72000, loss 0.3752
+iteration 84000, loss 0.3654
+iteration 96000, loss 0.3716
+iteration 108000, loss 0.3575
+iteration 120000, loss 0.3590
+iteration 132000, loss 0.3909
+iteration 144000, loss 0.3690
+iteration 156000, loss 0.3705
+iteration 168000, loss 0.3712
+iteration 180000, loss 0.3787
+iteration 192000, loss 0.3706
+csls unsupervised metric score: 0.08890
+cross-lingual word similarity score average: 0.66036
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 25.680672
+1500 unique source words - nn - Precision at k = 1: 50.933333
+2975 source words - nn - Precision at k = 5: 47.361345
+1500 unique source words - nn - Precision at k = 5: 67.266667
+2975 source words - nn - Precision at k = 10: 54.991597
+1500 unique source words - nn - Precision at k = 10: 72.333333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.058824
+1500 unique source words - csls_knn_10 - Precision at k = 1: 61.600000
+2975 source words - csls_knn_10 - Precision at k = 5: 56.235294
+1500 unique source words - csls_knn_10 - Precision at k = 5: 75.866667
+2975 source words - csls_knn_10 - Precision at k = 10: 63.193277
+1500 unique source words - csls_knn_10 - Precision at k = 10: 79.066667
+
+start epoch 9
+iteration 0, loss 0.3552
+iteration 12000, loss 0.3750
+iteration 24000, loss 0.3634
+iteration 36000, loss 0.3667
+iteration 48000, loss 0.3911
+iteration 60000, loss 0.3544
+iteration 72000, loss 0.3579
+iteration 84000, loss 0.3563
+iteration 96000, loss 0.3768
+iteration 108000, loss 0.3699
+iteration 120000, loss 0.3688
+iteration 132000, loss 0.3620
+iteration 144000, loss 0.3679
+iteration 156000, loss 0.3524
+iteration 168000, loss 0.3680
+iteration 180000, loss 0.3637
+iteration 192000, loss 0.3740
+csls unsupervised metric score: 0.10650
+cross-lingual word similarity score average: 0.67289
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 29.478992
+1500 unique source words - nn - Precision at k = 1: 58.466667
+2975 source words - nn - Precision at k = 5: 52.369748
+1500 unique source words - nn - Precision at k = 5: 73.266667
+2975 source words - nn - Precision at k = 10: 59.731092
+1500 unique source words - nn - Precision at k = 10: 77.266667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 33.613445
+1500 unique source words - csls_knn_10 - Precision at k = 1: 66.666667
+2975 source words - csls_knn_10 - Precision at k = 5: 59.428571
+1500 unique source words - csls_knn_10 - Precision at k = 5: 79.466667
+2975 source words - csls_knn_10 - Precision at k = 10: 66.689076
+1500 unique source words - csls_knn_10 - Precision at k = 10: 83.666667
+
+start epoch 10
+iteration 0, loss 0.3690
+iteration 12000, loss 0.3773
+iteration 24000, loss 0.3609
+iteration 36000, loss 0.3663
+iteration 48000, loss 0.3688
+iteration 60000, loss 0.3575
+iteration 72000, loss 0.3690
+iteration 84000, loss 0.3590
+iteration 96000, loss 0.3654
+iteration 108000, loss 0.3650
+iteration 120000, loss 0.3499
+iteration 132000, loss 0.3535
+iteration 144000, loss 0.3645
+iteration 156000, loss 0.3502
+iteration 168000, loss 0.3554
+iteration 180000, loss 0.3508
+iteration 192000, loss 0.3469
+csls unsupervised metric score: 0.09944
+cross-lingual word similarity score average: 0.66372
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.831933
+1500 unique source words - nn - Precision at k = 1: 55.200000
+2975 source words - nn - Precision at k = 5: 49.983193
+1500 unique source words - nn - Precision at k = 5: 71.266667
+2975 source words - nn - Precision at k = 10: 57.243697
+1500 unique source words - nn - Precision at k = 10: 75.400000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.571429
+1500 unique source words - csls_knn_10 - Precision at k = 1: 64.600000
+2975 source words - csls_knn_10 - Precision at k = 5: 57.411765
+1500 unique source words - csls_knn_10 - Precision at k = 5: 79.200000
+2975 source words - csls_knn_10 - Precision at k = 10: 65.344538
+1500 unique source words - csls_knn_10 - Precision at k = 10: 82.733333
+
+start epoch 11
+iteration 0, loss 0.3609
+iteration 12000, loss 0.3547
+iteration 24000, loss 0.3626
+iteration 36000, loss 0.3605
+iteration 48000, loss 0.3551
+iteration 60000, loss 0.3612
+iteration 72000, loss 0.3533
+iteration 84000, loss 0.3671
+iteration 96000, loss 0.3541
+iteration 108000, loss 0.3598
+iteration 120000, loss 0.3570
+iteration 132000, loss 0.3608
+iteration 144000, loss 0.3708
+iteration 156000, loss 0.3645
+iteration 168000, loss 0.3639
+iteration 180000, loss 0.3627
+iteration 192000, loss 0.3662
+csls unsupervised metric score: 0.08568
+cross-lingual word similarity score average: 0.64951
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 25.445378
+1500 unique source words - nn - Precision at k = 1: 50.466667
+2975 source words - nn - Precision at k = 5: 45.512605
+1500 unique source words - nn - Precision at k = 5: 66.133333
+2975 source words - nn - Precision at k = 10: 53.647059
+1500 unique source words - nn - Precision at k = 10: 71.600000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 29.680672
+1500 unique source words - csls_knn_10 - Precision at k = 1: 58.866667
+2975 source words - csls_knn_10 - Precision at k = 5: 53.882353
+1500 unique source words - csls_knn_10 - Precision at k = 5: 75.000000
+2975 source words - csls_knn_10 - Precision at k = 10: 61.243697
+1500 unique source words - csls_knn_10 - Precision at k = 10: 79.200000
+
+start epoch 12
+iteration 0, loss 0.3713
+iteration 12000, loss 0.3650
+iteration 24000, loss 0.3629
+iteration 36000, loss 0.3633
+iteration 48000, loss 0.3628
+iteration 60000, loss 0.3659
+iteration 72000, loss 0.3627
+iteration 84000, loss 0.3596
+iteration 96000, loss 0.3529
+iteration 108000, loss 0.3531
+iteration 120000, loss 0.3552
+iteration 132000, loss 0.3478
+iteration 144000, loss 0.3521
+iteration 156000, loss 0.3568
+iteration 168000, loss 0.3658
+iteration 180000, loss 0.3502
+iteration 192000, loss 0.3629
+csls unsupervised metric score: 0.07719
+cross-lingual word similarity score average: 0.65587
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.663866
+1500 unique source words - nn - Precision at k = 1: 46.933333
+2975 source words - nn - Precision at k = 5: 44.705882
+1500 unique source words - nn - Precision at k = 5: 62.933333
+2975 source words - nn - Precision at k = 10: 52.369748
+1500 unique source words - nn - Precision at k = 10: 67.733333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 28.739496
+1500 unique source words - csls_knn_10 - Precision at k = 1: 57.000000
+2975 source words - csls_knn_10 - Precision at k = 5: 52.436975
+1500 unique source words - csls_knn_10 - Precision at k = 5: 71.066667
+2975 source words - csls_knn_10 - Precision at k = 10: 59.731092
+1500 unique source words - csls_knn_10 - Precision at k = 10: 76.000000
+
+start epoch 13
+iteration 0, loss 0.3612
+iteration 12000, loss 0.3549
+iteration 24000, loss 0.3527
+iteration 36000, loss 0.3750
+iteration 48000, loss 0.3648
+iteration 60000, loss 0.3642
+iteration 72000, loss 0.3550
+iteration 84000, loss 0.3580
+iteration 96000, loss 0.3568
+iteration 108000, loss 0.3634
+iteration 120000, loss 0.3480
+iteration 132000, loss 0.3482
+iteration 144000, loss 0.3805
+iteration 156000, loss 0.3657
+iteration 168000, loss 0.3644
+iteration 180000, loss 0.3615
+iteration 192000, loss 0.3539
+csls unsupervised metric score: 0.00936
+cross-lingual word similarity score average: 0.58391
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 5.478992
+1500 unique source words - nn - Precision at k = 1: 10.866667
+2975 source words - nn - Precision at k = 5: 10.117647
+1500 unique source words - nn - Precision at k = 5: 19.066667
+2975 source words - nn - Precision at k = 10: 12.605042
+1500 unique source words - nn - Precision at k = 10: 22.800000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 13.344538
+1500 unique source words - csls_knn_10 - Precision at k = 1: 26.466667
+2975 source words - csls_knn_10 - Precision at k = 5: 26.487395
+1500 unique source words - csls_knn_10 - Precision at k = 5: 44.066667
+2975 source words - csls_knn_10 - Precision at k = 10: 32.436975
+1500 unique source words - csls_knn_10 - Precision at k = 10: 51.266667
+
+start epoch 14
+iteration 0, loss 0.3672
+iteration 12000, loss 0.3667
+iteration 24000, loss 0.3578
+iteration 36000, loss 0.3483
+iteration 48000, loss 0.3595
+iteration 60000, loss 0.3661
+iteration 72000, loss 0.3487
+iteration 84000, loss 0.3568
+iteration 96000, loss 0.3461
+iteration 108000, loss 0.3625
+iteration 120000, loss 0.3570
+iteration 132000, loss 0.3504
+iteration 144000, loss 0.3447
+iteration 156000, loss 0.3543
+iteration 168000, loss 0.3466
+iteration 180000, loss 0.3617
+iteration 192000, loss 0.3482
+csls unsupervised metric score: 0.00118
+cross-lingual word similarity score average: 0.56630
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 6.352941
+1500 unique source words - nn - Precision at k = 1: 12.600000
+2975 source words - nn - Precision at k = 5: 11.663866
+1500 unique source words - nn - Precision at k = 5: 21.866667
+2975 source words - nn - Precision at k = 10: 14.151261
+1500 unique source words - nn - Precision at k = 10: 25.400000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 12.739496
+1500 unique source words - csls_knn_10 - Precision at k = 1: 25.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 23.798319
+1500 unique source words - csls_knn_10 - Precision at k = 5: 41.066667
+2975 source words - csls_knn_10 - Precision at k = 10: 28.638655
+1500 unique source words - csls_knn_10 - Precision at k = 10: 46.666667
+
+start epoch 15
+iteration 0, loss 0.3552
+iteration 12000, loss 0.3462
+iteration 24000, loss 0.3635
+iteration 36000, loss 0.3583
+iteration 48000, loss 0.3492
+iteration 60000, loss 0.3624
+iteration 72000, loss 0.3581
+iteration 84000, loss 0.3408
+iteration 96000, loss 0.3432
+iteration 108000, loss 0.3528
+iteration 120000, loss 0.3485
+iteration 132000, loss 0.3438
+iteration 144000, loss 0.3454
+iteration 156000, loss 0.3612
+iteration 168000, loss 0.3482
+iteration 180000, loss 0.3578
+iteration 192000, loss 0.3536
+csls unsupervised metric score: 0.01522
+cross-lingual word similarity score average: 0.54882
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 11.495798
+1500 unique source words - nn - Precision at k = 1: 22.800000
+2975 source words - nn - Precision at k = 5: 20.134454
+1500 unique source words - nn - Precision at k = 5: 35.000000
+2975 source words - nn - Precision at k = 10: 23.563025
+1500 unique source words - nn - Precision at k = 10: 39.200000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 18.218487
+1500 unique source words - csls_knn_10 - Precision at k = 1: 36.133333
+2975 source words - csls_knn_10 - Precision at k = 5: 32.268908
+1500 unique source words - csls_knn_10 - Precision at k = 5: 53.000000
+2975 source words - csls_knn_10 - Precision at k = 10: 37.478992
+1500 unique source words - csls_knn_10 - Precision at k = 10: 57.666667
+
+start epoch 16
+iteration 0, loss 0.3444
+iteration 12000, loss 0.3485
+iteration 24000, loss 0.3548
+iteration 36000, loss 0.3664
+iteration 48000, loss 0.3584
+iteration 60000, loss 0.3530
+iteration 72000, loss 0.3594
+iteration 84000, loss 0.3583
+iteration 96000, loss 0.3566
+iteration 108000, loss 0.3651
+iteration 120000, loss 0.3519
+iteration 132000, loss 0.3692
+iteration 144000, loss 0.3636
+iteration 156000, loss 0.3613
+iteration 168000, loss 0.3582
+iteration 180000, loss 0.3690
+iteration 192000, loss 0.3564
+csls unsupervised metric score: 0.05946
+cross-lingual word similarity score average: 0.64170
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 20.336134
+1500 unique source words - nn - Precision at k = 1: 40.333333
+2975 source words - nn - Precision at k = 5: 39.226891
+1500 unique source words - nn - Precision at k = 5: 57.200000
+2975 source words - nn - Precision at k = 10: 46.151261
+1500 unique source words - nn - Precision at k = 10: 63.200000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 25.747899
+1500 unique source words - csls_knn_10 - Precision at k = 1: 51.066667
+2975 source words - csls_knn_10 - Precision at k = 5: 47.025210
+1500 unique source words - csls_knn_10 - Precision at k = 5: 66.266667
+2975 source words - csls_knn_10 - Precision at k = 10: 54.857143
+1500 unique source words - csls_knn_10 - Precision at k = 10: 71.866667
+
+start epoch 17
+iteration 0, loss 0.3695
+iteration 12000, loss 0.3530
+iteration 24000, loss 0.3693
+iteration 36000, loss 0.3572
+iteration 48000, loss 0.3611
+iteration 60000, loss 0.3662
+iteration 72000, loss 0.3559
+iteration 84000, loss 0.3567
+iteration 96000, loss 0.3584
+iteration 108000, loss 0.3545
+iteration 120000, loss 0.3631
+iteration 132000, loss 0.3696
+iteration 144000, loss 0.3533
+iteration 156000, loss 0.3614
+iteration 168000, loss 0.3584
+iteration 180000, loss 0.3574
+iteration 192000, loss 0.3464
+csls unsupervised metric score: 0.07900
+cross-lingual word similarity score average: 0.65619
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.092437
+1500 unique source words - nn - Precision at k = 1: 45.800000
+2975 source words - nn - Precision at k = 5: 43.899160
+1500 unique source words - nn - Precision at k = 5: 62.333333
+2975 source words - nn - Precision at k = 10: 51.327731
+1500 unique source words - nn - Precision at k = 10: 67.466667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.462185
+1500 unique source words - csls_knn_10 - Precision at k = 1: 54.466667
+2975 source words - csls_knn_10 - Precision at k = 5: 51.529412
+1500 unique source words - csls_knn_10 - Precision at k = 5: 69.933333
+2975 source words - csls_knn_10 - Precision at k = 10: 58.722689
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.533333
+
+start epoch 18
+iteration 0, loss 0.3505
+iteration 12000, loss 0.3448
+iteration 24000, loss 0.3438
+iteration 36000, loss 0.3443
+iteration 48000, loss 0.3505
+iteration 60000, loss 0.3583
+iteration 72000, loss 0.3560
+iteration 84000, loss 0.3550
+iteration 96000, loss 0.3554
+iteration 108000, loss 0.3713
+iteration 120000, loss 0.3563
+iteration 132000, loss 0.3527
+iteration 144000, loss 0.3525
+iteration 156000, loss 0.3529
+iteration 168000, loss 0.3571
+iteration 180000, loss 0.3564
+iteration 192000, loss 0.3693
+csls unsupervised metric score: 0.08790
+cross-lingual word similarity score average: 0.65981
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.529412
+1500 unique source words - nn - Precision at k = 1: 46.666667
+2975 source words - nn - Precision at k = 5: 44.571429
+1500 unique source words - nn - Precision at k = 5: 62.733333
+2975 source words - nn - Precision at k = 10: 51.966387
+1500 unique source words - nn - Precision at k = 10: 67.466667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.697479
+1500 unique source words - csls_knn_10 - Precision at k = 1: 54.933333
+2975 source words - csls_knn_10 - Precision at k = 5: 51.394958
+1500 unique source words - csls_knn_10 - Precision at k = 5: 69.600000
+2975 source words - csls_knn_10 - Precision at k = 10: 58.857143
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.866667
+
+start epoch 19
+iteration 0, loss 0.3569
+iteration 12000, loss 0.3467
+iteration 24000, loss 0.3445
+iteration 36000, loss 0.3607
+iteration 48000, loss 0.3542
+iteration 60000, loss 0.3573
+iteration 72000, loss 0.3503
+iteration 84000, loss 0.3648
+iteration 96000, loss 0.3581
+iteration 108000, loss 0.3598
+iteration 120000, loss 0.3539
+iteration 132000, loss 0.3526
+iteration 144000, loss 0.3451
+iteration 156000, loss 0.3807
+iteration 168000, loss 0.3449
+iteration 180000, loss 0.3556
+iteration 192000, loss 0.3479
+csls unsupervised metric score: 0.08950
+cross-lingual word similarity score average: 0.67522
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.226891
+1500 unique source words - nn - Precision at k = 1: 46.066667
+2975 source words - nn - Precision at k = 5: 44.672269
+1500 unique source words - nn - Precision at k = 5: 62.733333
+2975 source words - nn - Precision at k = 10: 51.327731
+1500 unique source words - nn - Precision at k = 10: 67.533333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.126050
+1500 unique source words - csls_knn_10 - Precision at k = 1: 53.800000
+2975 source words - csls_knn_10 - Precision at k = 5: 50.890756
+1500 unique source words - csls_knn_10 - Precision at k = 5: 69.533333
+2975 source words - csls_knn_10 - Precision at k = 10: 58.453782
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.733333
+
+start epoch 20
+iteration 0, loss 0.3491
+iteration 12000, loss 0.3467
+iteration 24000, loss 0.3633
+iteration 36000, loss 0.3481
+iteration 48000, loss 0.3462
+iteration 60000, loss 0.3539
+iteration 72000, loss 0.3507
+iteration 84000, loss 0.3456
+iteration 96000, loss 0.3624
+iteration 108000, loss 0.3529
+iteration 120000, loss 0.3411
+iteration 132000, loss 0.3510
+iteration 144000, loss 0.3579
+iteration 156000, loss 0.3489
+iteration 168000, loss 0.3461
+iteration 180000, loss 0.3555
+iteration 192000, loss 0.3529
+csls unsupervised metric score: 0.09062
+cross-lingual word similarity score average: 0.67779
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.831933
+1500 unique source words - nn - Precision at k = 1: 47.266667
+2975 source words - nn - Precision at k = 5: 44.302521
+1500 unique source words - nn - Precision at k = 5: 62.466667
+2975 source words - nn - Precision at k = 10: 51.495798
+1500 unique source words - nn - Precision at k = 10: 67.133333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.394958
+1500 unique source words - csls_knn_10 - Precision at k = 1: 54.333333
+2975 source words - csls_knn_10 - Precision at k = 5: 51.731092
+1500 unique source words - csls_knn_10 - Precision at k = 5: 69.666667
+2975 source words - csls_knn_10 - Precision at k = 10: 59.630252
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.600000
+
+start epoch 21
+iteration 0, loss 0.3542
+iteration 12000, loss 0.3420
+iteration 24000, loss 0.3466
+iteration 36000, loss 0.3451
+iteration 48000, loss 0.3556
+iteration 60000, loss 0.3535
+iteration 72000, loss 0.3698
+iteration 84000, loss 0.3569
+iteration 96000, loss 0.3563
+iteration 108000, loss 0.3471
+iteration 120000, loss 0.3436
+iteration 132000, loss 0.3497
+iteration 144000, loss 0.3546
+iteration 156000, loss 0.3559
+iteration 168000, loss 0.3456
+iteration 180000, loss 0.3458
+iteration 192000, loss 0.3551
+csls unsupervised metric score: 0.09450
+cross-lingual word similarity score average: 0.68086
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 25.747899
+1500 unique source words - nn - Precision at k = 1: 51.066667
+2975 source words - nn - Precision at k = 5: 47.663866
+1500 unique source words - nn - Precision at k = 5: 65.666667
+2975 source words - nn - Precision at k = 10: 54.689076
+1500 unique source words - nn - Precision at k = 10: 69.000000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 29.378151
+1500 unique source words - csls_knn_10 - Precision at k = 1: 58.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 53.882353
+1500 unique source words - csls_knn_10 - Precision at k = 5: 70.866667
+2975 source words - csls_knn_10 - Precision at k = 10: 60.840336
+1500 unique source words - csls_knn_10 - Precision at k = 10: 74.533333
+
+start epoch 22
+iteration 0, loss 0.3495
+iteration 12000, loss 0.3530
+iteration 24000, loss 0.3518
+iteration 36000, loss 0.3447
+iteration 48000, loss 0.3534
+iteration 60000, loss 0.3621
+iteration 72000, loss 0.3647
+iteration 84000, loss 0.3404
+iteration 96000, loss 0.3560
+iteration 108000, loss 0.3565
+iteration 120000, loss 0.3464
+iteration 132000, loss 0.3554
+iteration 144000, loss 0.3476
+iteration 156000, loss 0.3450
+iteration 168000, loss 0.3427
+iteration 180000, loss 0.3513
+iteration 192000, loss 0.3503
+csls unsupervised metric score: 0.10011
+cross-lingual word similarity score average: 0.67417
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.991597
+1500 unique source words - nn - Precision at k = 1: 53.533333
+2975 source words - nn - Precision at k = 5: 49.882353
+1500 unique source words - nn - Precision at k = 5: 68.800000
+2975 source words - nn - Precision at k = 10: 57.378151
+1500 unique source words - nn - Precision at k = 10: 72.600000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 30.016807
+1500 unique source words - csls_knn_10 - Precision at k = 1: 59.533333
+2975 source words - csls_knn_10 - Precision at k = 5: 55.193277
+1500 unique source words - csls_knn_10 - Precision at k = 5: 72.533333
+2975 source words - csls_knn_10 - Precision at k = 10: 63.260504
+1500 unique source words - csls_knn_10 - Precision at k = 10: 76.933333
+
+start epoch 23
+iteration 0, loss 0.3387
+iteration 12000, loss 0.3530
+iteration 24000, loss 0.3503
+iteration 36000, loss 0.3584
+iteration 48000, loss 0.3504
+iteration 60000, loss 0.3461
+iteration 72000, loss 0.3503
+iteration 84000, loss 0.3479
+iteration 96000, loss 0.3532
+iteration 108000, loss 0.3543
+iteration 120000, loss 0.3465
+iteration 132000, loss 0.3450
+iteration 144000, loss 0.3503
+iteration 156000, loss 0.3454
+iteration 168000, loss 0.3574
+iteration 180000, loss 0.3584
+iteration 192000, loss 0.3405
+csls unsupervised metric score: 0.09879
+cross-lingual word similarity score average: 0.66952
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.327731
+1500 unique source words - nn - Precision at k = 1: 54.200000
+2975 source words - nn - Precision at k = 5: 50.016807
+1500 unique source words - nn - Precision at k = 5: 68.933333
+2975 source words - nn - Precision at k = 10: 56.907563
+1500 unique source words - nn - Precision at k = 10: 72.400000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 30.756303
+1500 unique source words - csls_knn_10 - Precision at k = 1: 61.000000
+2975 source words - csls_knn_10 - Precision at k = 5: 55.394958
+1500 unique source words - csls_knn_10 - Precision at k = 5: 73.533333
+2975 source words - csls_knn_10 - Precision at k = 10: 63.159664
+1500 unique source words - csls_knn_10 - Precision at k = 10: 77.066667
+
+start epoch 24
+iteration 0, loss 0.3459
+iteration 12000, loss 0.3518
+iteration 24000, loss 0.3533
+iteration 36000, loss 0.3484
+iteration 48000, loss 0.3513
+iteration 60000, loss 0.3489
+iteration 72000, loss 0.3439
+iteration 84000, loss 0.3501
+iteration 96000, loss 0.3492
+iteration 108000, loss 0.3457
+iteration 120000, loss 0.3456
+iteration 132000, loss 0.3534
+iteration 144000, loss 0.3526
+iteration 156000, loss 0.3435
+iteration 168000, loss 0.3389
+iteration 180000, loss 0.3453
+iteration 192000, loss 0.3528
+csls unsupervised metric score: 0.09762
+cross-lingual word similarity score average: 0.66763
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.327731
+1500 unique source words - nn - Precision at k = 1: 54.200000
+2975 source words - nn - Precision at k = 5: 50.184874
+1500 unique source words - nn - Precision at k = 5: 69.800000
+2975 source words - nn - Precision at k = 10: 57.277311
+1500 unique source words - nn - Precision at k = 10: 73.800000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 30.386555
+1500 unique source words - csls_knn_10 - Precision at k = 1: 60.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 56.436975
+1500 unique source words - csls_knn_10 - Precision at k = 5: 75.133333
+2975 source words - csls_knn_10 - Precision at k = 10: 63.899160
+1500 unique source words - csls_knn_10 - Precision at k = 10: 78.866667
+
+start epoch 25
+iteration 0, loss 0.3382
+iteration 12000, loss 0.3466
+iteration 24000, loss 0.3501
+iteration 36000, loss 0.3479
+iteration 48000, loss 0.3477
+iteration 60000, loss 0.3437
+iteration 72000, loss 0.3527
+iteration 84000, loss 0.3461
+iteration 96000, loss 0.3465
+iteration 108000, loss 0.3513
+iteration 120000, loss 0.3564
+iteration 132000, loss 0.3501
+iteration 144000, loss 0.3453
+iteration 156000, loss 0.3439
+iteration 168000, loss 0.3520
+iteration 180000, loss 0.3450
+iteration 192000, loss 0.3502
+csls unsupervised metric score: 0.08936
+cross-lingual word similarity score average: 0.65651
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.722689
+1500 unique source words - nn - Precision at k = 1: 53.000000
+2975 source words - nn - Precision at k = 5: 49.042017
+1500 unique source words - nn - Precision at k = 5: 68.733333
+2975 source words - nn - Precision at k = 10: 56.907563
+1500 unique source words - nn - Precision at k = 10: 73.533333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 30.689076
+1500 unique source words - csls_knn_10 - Precision at k = 1: 60.866667
+2975 source words - csls_knn_10 - Precision at k = 5: 56.268908
+1500 unique source words - csls_knn_10 - Precision at k = 5: 76.466667
+2975 source words - csls_knn_10 - Precision at k = 10: 64.100840
+1500 unique source words - csls_knn_10 - Precision at k = 10: 79.666667
+
+start epoch 26
+iteration 0, loss 0.3404
+iteration 12000, loss 0.3728
+iteration 24000, loss 0.3487
+iteration 36000, loss 0.3409
+iteration 48000, loss 0.3470
+iteration 60000, loss 0.3454
+iteration 72000, loss 0.3483
+iteration 84000, loss 0.3405
+iteration 96000, loss 0.3488
+iteration 108000, loss 0.3544
+iteration 120000, loss 0.3438
+iteration 132000, loss 0.3510
+iteration 144000, loss 0.3421
+iteration 156000, loss 0.3481
+iteration 168000, loss 0.3439
+iteration 180000, loss 0.3444
+iteration 192000, loss 0.3555
+csls unsupervised metric score: 0.08550
+cross-lingual word similarity score average: 0.65906
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.823529
+1500 unique source words - nn - Precision at k = 1: 53.200000
+2975 source words - nn - Precision at k = 5: 49.210084
+1500 unique source words - nn - Precision at k = 5: 69.866667
+2975 source words - nn - Precision at k = 10: 57.210084
+1500 unique source words - nn - Precision at k = 10: 75.266667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.000000
+1500 unique source words - csls_knn_10 - Precision at k = 1: 63.466667
+2975 source words - csls_knn_10 - Precision at k = 5: 57.142857
+1500 unique source words - csls_knn_10 - Precision at k = 5: 78.733333
+2975 source words - csls_knn_10 - Precision at k = 10: 64.504202
+1500 unique source words - csls_knn_10 - Precision at k = 10: 82.800000
+
+start epoch 27
+iteration 0, loss 0.3441
+iteration 12000, loss 0.3447
+iteration 24000, loss 0.3419
+iteration 36000, loss 0.3459
+iteration 48000, loss 0.3451
+iteration 60000, loss 0.3454
+iteration 72000, loss 0.3499
+iteration 84000, loss 0.3494
+iteration 96000, loss 0.3491
+iteration 108000, loss 0.3462
+iteration 120000, loss 0.3484
+iteration 132000, loss 0.3391
+iteration 144000, loss 0.3435
+iteration 156000, loss 0.3428
+iteration 168000, loss 0.3514
+iteration 180000, loss 0.3480
+iteration 192000, loss 0.3425
+csls unsupervised metric score: 0.08922
+cross-lingual word similarity score average: 0.66691
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 28.504202
+1500 unique source words - nn - Precision at k = 1: 56.533333
+2975 source words - nn - Precision at k = 5: 51.865546
+1500 unique source words - nn - Precision at k = 5: 73.866667
+2975 source words - nn - Precision at k = 10: 59.025210
+1500 unique source words - nn - Precision at k = 10: 77.733333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 33.344538
+1500 unique source words - csls_knn_10 - Precision at k = 1: 66.133333
+2975 source words - csls_knn_10 - Precision at k = 5: 57.983193
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.866667
+2975 source words - csls_knn_10 - Precision at k = 10: 65.378151
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.266667
+
+start epoch 28
+iteration 0, loss 0.3470
+iteration 12000, loss 0.3416
+iteration 24000, loss 0.3471
+iteration 36000, loss 0.3403
+iteration 48000, loss 0.3468
+iteration 60000, loss 0.3453
+iteration 72000, loss 0.3483
+iteration 84000, loss 0.3458
+iteration 96000, loss 0.3449
+iteration 108000, loss 0.3476
+iteration 120000, loss 0.3464
+iteration 132000, loss 0.3423
+iteration 144000, loss 0.3492
+iteration 156000, loss 0.3350
+iteration 168000, loss 0.3444
+iteration 180000, loss 0.3479
+iteration 192000, loss 0.3450
+csls unsupervised metric score: 0.09106
+cross-lingual word similarity score average: 0.66330
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 28.672269
+1500 unique source words - nn - Precision at k = 1: 56.866667
+2975 source words - nn - Precision at k = 5: 50.689076
+1500 unique source words - nn - Precision at k = 5: 73.200000
+2975 source words - nn - Precision at k = 10: 58.890756
+1500 unique source words - nn - Precision at k = 10: 78.600000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 33.714286
+1500 unique source words - csls_knn_10 - Precision at k = 1: 66.866667
+2975 source words - csls_knn_10 - Precision at k = 5: 57.579832
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.733333
+2975 source words - csls_knn_10 - Precision at k = 10: 65.445378
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.733333
+
+start epoch 29
+iteration 0, loss 0.3413
+iteration 12000, loss 0.3524
+iteration 24000, loss 0.3397
+iteration 36000, loss 0.3487
+iteration 48000, loss 0.3421
+iteration 60000, loss 0.3395
+iteration 72000, loss 0.3474
+iteration 84000, loss 0.3366
+iteration 96000, loss 0.3449
+iteration 108000, loss 0.3438
+iteration 120000, loss 0.3462
+iteration 132000, loss 0.3380
+iteration 144000, loss 0.3462
+iteration 156000, loss 0.3521
+iteration 168000, loss 0.3479
+iteration 180000, loss 0.3513
+iteration 192000, loss 0.3458
+csls unsupervised metric score: 0.08759
+cross-lingual word similarity score average: 0.66238
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 28.235294
+1500 unique source words - nn - Precision at k = 1: 56.000000
+2975 source words - nn - Precision at k = 5: 50.756303
+1500 unique source words - nn - Precision at k = 5: 73.266667
+2975 source words - nn - Precision at k = 10: 57.882353
+1500 unique source words - nn - Precision at k = 10: 78.600000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.739496
+1500 unique source words - csls_knn_10 - Precision at k = 1: 64.933333
+2975 source words - csls_knn_10 - Precision at k = 5: 56.974790
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.066667
+2975 source words - csls_knn_10 - Precision at k = 10: 64.840336
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.133333
+
+start epoch 30
+iteration 0, loss 0.3456
+iteration 12000, loss 0.3525
+iteration 24000, loss 0.3417
+iteration 36000, loss 0.3451
+iteration 48000, loss 0.3374
+iteration 60000, loss 0.3468
+iteration 72000, loss 0.3457
+iteration 84000, loss 0.3475
+iteration 96000, loss 0.3496
+iteration 108000, loss 0.3455
+iteration 120000, loss 0.3439
+iteration 132000, loss 0.3416
+iteration 144000, loss 0.3484
+iteration 156000, loss 0.3533
+iteration 168000, loss 0.3485
+iteration 180000, loss 0.3441
+iteration 192000, loss 0.3422
+csls unsupervised metric score: 0.08076
+cross-lingual word similarity score average: 0.65093
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.655462
+1500 unique source words - nn - Precision at k = 1: 52.866667
+2975 source words - nn - Precision at k = 5: 48.840336
+1500 unique source words - nn - Precision at k = 5: 70.400000
+2975 source words - nn - Precision at k = 10: 55.831933
+1500 unique source words - nn - Precision at k = 10: 76.333333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.361345
+1500 unique source words - csls_knn_10 - Precision at k = 1: 62.200000
+2975 source words - csls_knn_10 - Precision at k = 5: 56.067227
+1500 unique source words - csls_knn_10 - Precision at k = 5: 78.200000
+2975 source words - csls_knn_10 - Precision at k = 10: 63.428571
+1500 unique source words - csls_knn_10 - Precision at k = 10: 82.866667
+
+start epoch 31
+iteration 0, loss 0.3507
+iteration 12000, loss 0.3430
+iteration 24000, loss 0.3534
+iteration 36000, loss 0.3435
+iteration 48000, loss 0.3592
+iteration 60000, loss 0.3405
+iteration 72000, loss 0.3423
+iteration 84000, loss 0.3479
+iteration 96000, loss 0.3438
+iteration 108000, loss 0.3430
+iteration 120000, loss 0.3451
+iteration 132000, loss 0.3424
+iteration 144000, loss 0.3428
+iteration 156000, loss 0.3378
+iteration 168000, loss 0.3421
+iteration 180000, loss 0.3472
+iteration 192000, loss 0.3470
+csls unsupervised metric score: 0.07883
+cross-lingual word similarity score average: 0.64466
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.084034
+1500 unique source words - nn - Precision at k = 1: 51.733333
+2975 source words - nn - Precision at k = 5: 48.336134
+1500 unique source words - nn - Precision at k = 5: 69.933333
+2975 source words - nn - Precision at k = 10: 55.697479
+1500 unique source words - nn - Precision at k = 10: 75.200000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.058824
+1500 unique source words - csls_knn_10 - Precision at k = 1: 61.600000
+2975 source words - csls_knn_10 - Precision at k = 5: 55.798319
+1500 unique source words - csls_knn_10 - Precision at k = 5: 78.533333
+2975 source words - csls_knn_10 - Precision at k = 10: 63.361345
+1500 unique source words - csls_knn_10 - Precision at k = 10: 82.866667
+
+start epoch 32
+iteration 0, loss 0.3398
+iteration 12000, loss 0.3487
+iteration 24000, loss 0.3464
+iteration 36000, loss 0.3487
+iteration 48000, loss 0.3497
+iteration 60000, loss 0.3490
+iteration 72000, loss 0.3419
+iteration 84000, loss 0.3528
+iteration 96000, loss 0.3432
+iteration 108000, loss 0.3434
+iteration 120000, loss 0.3380
+iteration 132000, loss 0.3406
+iteration 144000, loss 0.3420
+iteration 156000, loss 0.3453
+iteration 168000, loss 0.3494
+iteration 180000, loss 0.3439
+iteration 192000, loss 0.3520
+csls unsupervised metric score: 0.07859
+cross-lingual word similarity score average: 0.64046
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.756303
+1500 unique source words - nn - Precision at k = 1: 53.066667
+2975 source words - nn - Precision at k = 5: 48.504202
+1500 unique source words - nn - Precision at k = 5: 70.866667
+2975 source words - nn - Precision at k = 10: 56.100840
+1500 unique source words - nn - Precision at k = 10: 75.800000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.596639
+1500 unique source words - csls_knn_10 - Precision at k = 1: 62.666667
+2975 source words - csls_knn_10 - Precision at k = 5: 56.739496
+1500 unique source words - csls_knn_10 - Precision at k = 5: 79.200000
+2975 source words - csls_knn_10 - Precision at k = 10: 64.470588
+1500 unique source words - csls_knn_10 - Precision at k = 10: 83.666667
+
+start epoch 33
+iteration 0, loss 0.3422
+iteration 12000, loss 0.3440
+iteration 24000, loss 0.3389
+iteration 36000, loss 0.3502
+iteration 48000, loss 0.3501
+iteration 60000, loss 0.3449
+iteration 72000, loss 0.3445
+iteration 84000, loss 0.3475
+iteration 96000, loss 0.3466
+iteration 108000, loss 0.3424
+iteration 120000, loss 0.3448
+iteration 132000, loss 0.3460
+iteration 144000, loss 0.3517
+iteration 156000, loss 0.3426
+iteration 168000, loss 0.3503
+iteration 180000, loss 0.3480
+iteration 192000, loss 0.3475
+csls unsupervised metric score: 0.08010
+cross-lingual word similarity score average: 0.64032
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.260504
+1500 unique source words - nn - Precision at k = 1: 54.066667
+2975 source words - nn - Precision at k = 5: 49.882353
+1500 unique source words - nn - Precision at k = 5: 72.866667
+2975 source words - nn - Precision at k = 10: 56.974790
+1500 unique source words - nn - Precision at k = 10: 77.266667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.537815
+1500 unique source words - csls_knn_10 - Precision at k = 1: 64.533333
+2975 source words - csls_knn_10 - Precision at k = 5: 56.907563
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.133333
+2975 source words - csls_knn_10 - Precision at k = 10: 64.537815
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.133333
+
+start epoch 34
+iteration 0, loss 0.3344
+iteration 12000, loss 0.3579
+iteration 24000, loss 0.3410
+iteration 36000, loss 0.3416
+iteration 48000, loss 0.3498
+iteration 60000, loss 0.3426
+iteration 72000, loss 0.3541
+iteration 84000, loss 0.3419
+iteration 96000, loss 0.3467
+iteration 108000, loss 0.3409
+iteration 120000, loss 0.3411
+iteration 132000, loss 0.3410
+iteration 144000, loss 0.3369
+iteration 156000, loss 0.3421
+iteration 168000, loss 0.3379
+iteration 180000, loss 0.3405
+iteration 192000, loss 0.3371
+csls unsupervised metric score: 0.08198
+cross-lingual word similarity score average: 0.63311
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.663866
+1500 unique source words - nn - Precision at k = 1: 54.866667
+2975 source words - nn - Precision at k = 5: 49.546218
+1500 unique source words - nn - Precision at k = 5: 72.400000
+2975 source words - nn - Precision at k = 10: 57.983193
+1500 unique source words - nn - Precision at k = 10: 78.733333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 33.210084
+1500 unique source words - csls_knn_10 - Precision at k = 1: 65.866667
+2975 source words - csls_knn_10 - Precision at k = 5: 57.815126
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.533333
+2975 source words - csls_knn_10 - Precision at k = 10: 65.378151
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.733333
+
+start epoch 35
+iteration 0, loss 0.3384
+iteration 12000, loss 0.3424
+iteration 24000, loss 0.3454
+iteration 36000, loss 0.3417
+iteration 48000, loss 0.3405
+iteration 60000, loss 0.3468
+iteration 72000, loss 0.3415
+iteration 84000, loss 0.3413
+iteration 96000, loss 0.3407
+iteration 108000, loss 0.3435
+iteration 120000, loss 0.3445
+iteration 132000, loss 0.3426
+iteration 144000, loss 0.3467
+iteration 156000, loss 0.3466
+iteration 168000, loss 0.3402
+iteration 180000, loss 0.3464
+iteration 192000, loss 0.3391
+csls unsupervised metric score: 0.08240
+cross-lingual word similarity score average: 0.63931
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.957983
+1500 unique source words - nn - Precision at k = 1: 53.466667
+2975 source words - nn - Precision at k = 5: 49.008403
+1500 unique source words - nn - Precision at k = 5: 72.066667
+2975 source words - nn - Precision at k = 10: 57.277311
+1500 unique source words - nn - Precision at k = 10: 77.800000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 33.008403
+1500 unique source words - csls_knn_10 - Precision at k = 1: 65.466667
+2975 source words - csls_knn_10 - Precision at k = 5: 57.478992
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.333333
+2975 source words - csls_knn_10 - Precision at k = 10: 65.445378
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.200000
+
+start epoch 36
+iteration 0, loss 0.3405
+iteration 12000, loss 0.3490
+iteration 24000, loss 0.3414
+iteration 36000, loss 0.3494
+iteration 48000, loss 0.3452
+iteration 60000, loss 0.3389
+iteration 72000, loss 0.3525
+iteration 84000, loss 0.3449
+iteration 96000, loss 0.3478
+iteration 108000, loss 0.3491
+iteration 120000, loss 0.3410
+iteration 132000, loss 0.3506
+iteration 144000, loss 0.3406
+iteration 156000, loss 0.3393
+iteration 168000, loss 0.3454
+iteration 180000, loss 0.3515
+iteration 192000, loss 0.3476
+csls unsupervised metric score: 0.08195
+cross-lingual word similarity score average: 0.63866
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.462185
+1500 unique source words - nn - Precision at k = 1: 54.466667
+2975 source words - nn - Precision at k = 5: 48.941176
+1500 unique source words - nn - Precision at k = 5: 71.333333
+2975 source words - nn - Precision at k = 10: 56.941176
+1500 unique source words - nn - Precision at k = 10: 77.000000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.941176
+1500 unique source words - csls_knn_10 - Precision at k = 1: 65.333333
+2975 source words - csls_knn_10 - Precision at k = 5: 57.277311
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.133333
+2975 source words - csls_knn_10 - Precision at k = 10: 64.773109
+1500 unique source words - csls_knn_10 - Precision at k = 10: 83.466667
+
+start epoch 37
+iteration 0, loss 0.3424
+iteration 12000, loss 0.3374
+iteration 24000, loss 0.3364
+iteration 36000, loss 0.3372
+iteration 48000, loss 0.3402
+iteration 60000, loss 0.3448
+iteration 72000, loss 0.3389
+iteration 84000, loss 0.3415
+iteration 96000, loss 0.3521
+iteration 108000, loss 0.3385
+iteration 120000, loss 0.3357
+iteration 132000, loss 0.3533
+iteration 144000, loss 0.3401
+iteration 156000, loss 0.3410
+iteration 168000, loss 0.3467
+iteration 180000, loss 0.3441
+iteration 192000, loss 0.3450
+csls unsupervised metric score: 0.08168
+cross-lingual word similarity score average: 0.63993
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.663866
+1500 unique source words - nn - Precision at k = 1: 54.866667
+2975 source words - nn - Precision at k = 5: 49.915966
+1500 unique source words - nn - Precision at k = 5: 72.533333
+2975 source words - nn - Precision at k = 10: 57.109244
+1500 unique source words - nn - Precision at k = 10: 76.933333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.873950
+1500 unique source words - csls_knn_10 - Precision at k = 1: 65.200000
+2975 source words - csls_knn_10 - Precision at k = 5: 57.478992
+1500 unique source words - csls_knn_10 - Precision at k = 5: 80.133333
+2975 source words - csls_knn_10 - Precision at k = 10: 64.605042
+1500 unique source words - csls_knn_10 - Precision at k = 10: 83.666667
+
+start epoch 38
+iteration 0, loss 0.3414
+iteration 12000, loss 0.3386
+iteration 24000, loss 0.3420
+iteration 36000, loss 0.3445
+iteration 48000, loss 0.3397
+iteration 60000, loss 0.3401
+iteration 72000, loss 0.3406
+iteration 84000, loss 0.3401
+iteration 96000, loss 0.3405
+iteration 108000, loss 0.3438
+iteration 120000, loss 0.3427
+iteration 132000, loss 0.3385
+iteration 144000, loss 0.3376
+iteration 156000, loss 0.3389
+iteration 168000, loss 0.3410
+iteration 180000, loss 0.3388
+iteration 192000, loss 0.3397
+csls unsupervised metric score: 0.08194
+cross-lingual word similarity score average: 0.64224
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 27.193277
+1500 unique source words - nn - Precision at k = 1: 53.933333
+2975 source words - nn - Precision at k = 5: 49.277311
+1500 unique source words - nn - Precision at k = 5: 71.933333
+2975 source words - nn - Precision at k = 10: 56.806723
+1500 unique source words - nn - Precision at k = 10: 76.800000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 32.403361
+1500 unique source words - csls_knn_10 - Precision at k = 1: 64.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 56.806723
+1500 unique source words - csls_knn_10 - Precision at k = 5: 79.933333
+2975 source words - csls_knn_10 - Precision at k = 10: 64.504202
+1500 unique source words - csls_knn_10 - Precision at k = 10: 84.000000
+
+start epoch 39
+iteration 0, loss 0.3523
+iteration 12000, loss 0.3381
+iteration 24000, loss 0.3461
+iteration 36000, loss 0.3433
+iteration 48000, loss 0.3390
+iteration 60000, loss 0.3461
+iteration 72000, loss 0.3487
+iteration 84000, loss 0.3342
+iteration 96000, loss 0.3419
+iteration 108000, loss 0.3443
+iteration 120000, loss 0.3353
+iteration 132000, loss 0.3418
+iteration 144000, loss 0.3412
+iteration 156000, loss 0.3441
+iteration 168000, loss 0.3412
+iteration 180000, loss 0.3496
+iteration 192000, loss 0.3467
+csls unsupervised metric score: 0.08080
+cross-lingual word similarity score average: 0.64561
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.924370
+1500 unique source words - nn - Precision at k = 1: 53.400000
+2975 source words - nn - Precision at k = 5: 48.201681
+1500 unique source words - nn - Precision at k = 5: 70.400000
+2975 source words - nn - Precision at k = 10: 56.067227
+1500 unique source words - nn - Precision at k = 10: 75.533333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.899160
+1500 unique source words - csls_knn_10 - Precision at k = 1: 63.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 56.672269
+1500 unique source words - csls_knn_10 - Precision at k = 5: 79.533333
+2975 source words - csls_knn_10 - Precision at k = 10: 64.100840
+1500 unique source words - csls_knn_10 - Precision at k = 10: 83.400000
+
+start epoch 40
+iteration 0, loss 0.3440
+iteration 12000, loss 0.3433
+iteration 24000, loss 0.3474
+iteration 36000, loss 0.3414
+iteration 48000, loss 0.3443
+iteration 60000, loss 0.3391
+iteration 72000, loss 0.3381
+iteration 84000, loss 0.3378
+iteration 96000, loss 0.3415
+iteration 108000, loss 0.3328
+iteration 120000, loss 0.3493
+iteration 132000, loss 0.3403
+iteration 144000, loss 0.3415
+iteration 156000, loss 0.3384
+iteration 168000, loss 0.3431
+iteration 180000, loss 0.3384
+iteration 192000, loss 0.3387
+csls unsupervised metric score: 0.07902
+cross-lingual word similarity score average: 0.64597
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 26.420168
+1500 unique source words - nn - Precision at k = 1: 52.400000
+2975 source words - nn - Precision at k = 5: 47.899160
+1500 unique source words - nn - Precision at k = 5: 69.933333
+2975 source words - nn - Precision at k = 10: 54.890756
+1500 unique source words - nn - Precision at k = 10: 74.133333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.899160
+1500 unique source words - csls_knn_10 - Precision at k = 1: 63.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 56.235294
+1500 unique source words - csls_knn_10 - Precision at k = 5: 78.333333
+2975 source words - csls_knn_10 - Precision at k = 10: 63.025210
+1500 unique source words - csls_knn_10 - Precision at k = 10: 81.866667
+
+start epoch 41
+iteration 0, loss 0.3391
+iteration 12000, loss 0.3450
+iteration 24000, loss 0.3386
+iteration 36000, loss 0.3408
+iteration 48000, loss 0.3451
+iteration 60000, loss 0.3454
+iteration 72000, loss 0.3347
+iteration 84000, loss 0.3416
+iteration 96000, loss 0.3382
+iteration 108000, loss 0.3413
+iteration 120000, loss 0.3395
+iteration 132000, loss 0.3390
+iteration 144000, loss 0.3410
+iteration 156000, loss 0.3379
+iteration 168000, loss 0.3455
+iteration 180000, loss 0.3536
+iteration 192000, loss 0.3365
+csls unsupervised metric score: 0.07688
+cross-lingual word similarity score average: 0.64661
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 25.781513
+1500 unique source words - nn - Precision at k = 1: 51.133333
+2975 source words - nn - Precision at k = 5: 47.697479
+1500 unique source words - nn - Precision at k = 5: 69.666667
+2975 source words - nn - Precision at k = 10: 54.588235
+1500 unique source words - nn - Precision at k = 10: 74.066667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.630252
+1500 unique source words - csls_knn_10 - Precision at k = 1: 62.733333
+2975 source words - csls_knn_10 - Precision at k = 5: 55.596639
+1500 unique source words - csls_knn_10 - Precision at k = 5: 77.066667
+2975 source words - csls_knn_10 - Precision at k = 10: 62.453782
+1500 unique source words - csls_knn_10 - Precision at k = 10: 81.000000
+
+start epoch 42
+iteration 0, loss 0.3354
+iteration 12000, loss 0.3413
+iteration 24000, loss 0.3424
+iteration 36000, loss 0.3353
+iteration 48000, loss 0.3432
+iteration 60000, loss 0.3440
+iteration 72000, loss 0.3395
+iteration 84000, loss 0.3429
+iteration 96000, loss 0.3388
+iteration 108000, loss 0.3378
+iteration 120000, loss 0.3444
+iteration 132000, loss 0.3416
+iteration 144000, loss 0.3326
+iteration 156000, loss 0.3417
+iteration 168000, loss 0.3446
+iteration 180000, loss 0.3374
+iteration 192000, loss 0.3382
+csls unsupervised metric score: 0.07370
+cross-lingual word similarity score average: 0.64663
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 25.176471
+1500 unique source words - nn - Precision at k = 1: 49.933333
+2975 source words - nn - Precision at k = 5: 47.260504
+1500 unique source words - nn - Precision at k = 5: 68.866667
+2975 source words - nn - Precision at k = 10: 54.117647
+1500 unique source words - nn - Precision at k = 10: 73.333333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 31.226891
+1500 unique source words - csls_knn_10 - Precision at k = 1: 61.933333
+2975 source words - csls_knn_10 - Precision at k = 5: 54.722689
+1500 unique source words - csls_knn_10 - Precision at k = 5: 76.000000
+2975 source words - csls_knn_10 - Precision at k = 10: 62.016807
+1500 unique source words - csls_knn_10 - Precision at k = 10: 80.066667
+
+start epoch 43
+iteration 0, loss 0.3471
+iteration 12000, loss 0.3386
+iteration 24000, loss 0.3482
+iteration 36000, loss 0.3437
+iteration 48000, loss 0.3383
+iteration 60000, loss 0.3388
+iteration 72000, loss 0.3408
+iteration 84000, loss 0.3477
+iteration 96000, loss 0.3416
+iteration 108000, loss 0.3377
+iteration 120000, loss 0.3474
+iteration 132000, loss 0.3418
+iteration 144000, loss 0.3433
+iteration 156000, loss 0.3450
+iteration 168000, loss 0.3451
+iteration 180000, loss 0.3404
+iteration 192000, loss 0.3364
+csls unsupervised metric score: 0.06915
+cross-lingual word similarity score average: 0.64789
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.193277
+1500 unique source words - nn - Precision at k = 1: 46.000000
+2975 source words - nn - Precision at k = 5: 45.277311
+1500 unique source words - nn - Precision at k = 5: 65.133333
+2975 source words - nn - Precision at k = 10: 52.067227
+1500 unique source words - nn - Precision at k = 10: 69.333333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 29.747899
+1500 unique source words - csls_knn_10 - Precision at k = 1: 59.000000
+2975 source words - csls_knn_10 - Precision at k = 5: 53.008403
+1500 unique source words - csls_knn_10 - Precision at k = 5: 73.266667
+2975 source words - csls_knn_10 - Precision at k = 10: 60.134454
+1500 unique source words - csls_knn_10 - Precision at k = 10: 76.800000
+
+start epoch 44
+iteration 0, loss 0.3465
+iteration 12000, loss 0.3433
+iteration 24000, loss 0.3389
+iteration 36000, loss 0.3353
+iteration 48000, loss 0.3389
+iteration 60000, loss 0.3390
+iteration 72000, loss 0.3418
+iteration 84000, loss 0.3397
+iteration 96000, loss 0.3434
+iteration 108000, loss 0.3445
+iteration 120000, loss 0.3399
+iteration 132000, loss 0.3387
+iteration 144000, loss 0.3395
+iteration 156000, loss 0.3459
+iteration 168000, loss 0.3385
+iteration 180000, loss 0.3426
+iteration 192000, loss 0.3433
+csls unsupervised metric score: 0.06688
+cross-lingual word similarity score average: 0.64590
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.092437
+1500 unique source words - nn - Precision at k = 1: 45.800000
+2975 source words - nn - Precision at k = 5: 44.504202
+1500 unique source words - nn - Precision at k = 5: 63.933333
+2975 source words - nn - Precision at k = 10: 51.697479
+1500 unique source words - nn - Precision at k = 10: 68.333333
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 28.672269
+1500 unique source words - csls_knn_10 - Precision at k = 1: 56.866667
+2975 source words - csls_knn_10 - Precision at k = 5: 51.899160
+1500 unique source words - csls_knn_10 - Precision at k = 5: 71.666667
+2975 source words - csls_knn_10 - Precision at k = 10: 59.630252
+1500 unique source words - csls_knn_10 - Precision at k = 10: 76.000000
+
+start epoch 45
+iteration 0, loss 0.3432
+iteration 12000, loss 0.3411
+iteration 24000, loss 0.3455
+iteration 36000, loss 0.3377
+iteration 48000, loss 0.3400
+iteration 60000, loss 0.3427
+iteration 72000, loss 0.3391
+iteration 84000, loss 0.3383
+iteration 96000, loss 0.3365
+iteration 108000, loss 0.3406
+iteration 120000, loss 0.3396
+iteration 132000, loss 0.3406
+iteration 144000, loss 0.3433
+iteration 156000, loss 0.3374
+iteration 168000, loss 0.3358
+iteration 180000, loss 0.3411
+iteration 192000, loss 0.3424
+csls unsupervised metric score: 0.06497
+cross-lingual word similarity score average: 0.63811
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.058824
+1500 unique source words - nn - Precision at k = 1: 45.733333
+2975 source words - nn - Precision at k = 5: 43.630252
+1500 unique source words - nn - Precision at k = 5: 62.333333
+2975 source words - nn - Precision at k = 10: 50.890756
+1500 unique source words - nn - Precision at k = 10: 67.066667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.865546
+1500 unique source words - csls_knn_10 - Precision at k = 1: 55.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 50.756303
+1500 unique source words - csls_knn_10 - Precision at k = 5: 70.200000
+2975 source words - csls_knn_10 - Precision at k = 10: 58.386555
+1500 unique source words - csls_knn_10 - Precision at k = 10: 74.800000
+
+start epoch 46
+iteration 0, loss 0.3344
+iteration 12000, loss 0.3468
+iteration 24000, loss 0.3370
+iteration 36000, loss 0.3382
+iteration 48000, loss 0.3364
+iteration 60000, loss 0.3403
+iteration 72000, loss 0.3394
+iteration 84000, loss 0.3381
+iteration 96000, loss 0.3432
+iteration 108000, loss 0.3363
+iteration 120000, loss 0.3355
+iteration 132000, loss 0.3434
+iteration 144000, loss 0.3403
+iteration 156000, loss 0.3402
+iteration 168000, loss 0.3417
+iteration 180000, loss 0.3433
+iteration 192000, loss 0.3432
+csls unsupervised metric score: 0.06310
+cross-lingual word similarity score average: 0.63569
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 22.521008
+1500 unique source words - nn - Precision at k = 1: 44.666667
+2975 source words - nn - Precision at k = 5: 42.285714
+1500 unique source words - nn - Precision at k = 5: 60.733333
+2975 source words - nn - Precision at k = 10: 50.252101
+1500 unique source words - nn - Precision at k = 10: 66.066667
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.361345
+1500 unique source words - csls_knn_10 - Precision at k = 1: 54.266667
+2975 source words - csls_knn_10 - Precision at k = 5: 50.453782
+1500 unique source words - csls_knn_10 - Precision at k = 5: 69.400000
+2975 source words - csls_knn_10 - Precision at k = 10: 57.949580
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.533333
+
+start epoch 47
+iteration 0, loss 0.3395
+iteration 12000, loss 0.3412
+iteration 24000, loss 0.3408
+iteration 36000, loss 0.3405
+iteration 48000, loss 0.3424
+iteration 60000, loss 0.3409
+iteration 72000, loss 0.3373
+iteration 84000, loss 0.3387
+iteration 96000, loss 0.3412
+iteration 108000, loss 0.3489
+iteration 120000, loss 0.3463
+iteration 132000, loss 0.3515
+iteration 144000, loss 0.3423
+iteration 156000, loss 0.3424
+iteration 168000, loss 0.3415
+iteration 180000, loss 0.3408
+iteration 192000, loss 0.3382
+csls unsupervised metric score: 0.06197
+cross-lingual word similarity score average: 0.63151
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 22.285714
+1500 unique source words - nn - Precision at k = 1: 44.200000
+2975 source words - nn - Precision at k = 5: 42.252101
+1500 unique source words - nn - Precision at k = 5: 60.400000
+2975 source words - nn - Precision at k = 10: 50.386555
+1500 unique source words - nn - Precision at k = 10: 65.800000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.058824
+1500 unique source words - csls_knn_10 - Precision at k = 1: 53.666667
+2975 source words - csls_knn_10 - Precision at k = 5: 50.016807
+1500 unique source words - csls_knn_10 - Precision at k = 5: 68.400000
+2975 source words - csls_knn_10 - Precision at k = 10: 57.546218
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.066667
+
+start epoch 48
+iteration 0, loss 0.3398
+iteration 12000, loss 0.3381
+iteration 24000, loss 0.3418
+iteration 36000, loss 0.3408
+iteration 48000, loss 0.3435
+iteration 60000, loss 0.3363
+iteration 72000, loss 0.3390
+iteration 84000, loss 0.3378
+iteration 96000, loss 0.3409
+iteration 108000, loss 0.3342
+iteration 120000, loss 0.3440
+iteration 132000, loss 0.3396
+iteration 144000, loss 0.3410
+iteration 156000, loss 0.3379
+iteration 168000, loss 0.3441
+iteration 180000, loss 0.3399
+iteration 192000, loss 0.3386
+csls unsupervised metric score: 0.06107
+cross-lingual word similarity score average: 0.62918
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 22.655462
+1500 unique source words - nn - Precision at k = 1: 44.933333
+2975 source words - nn - Precision at k = 5: 42.890756
+1500 unique source words - nn - Precision at k = 5: 60.666667
+2975 source words - nn - Precision at k = 10: 50.218487
+1500 unique source words - nn - Precision at k = 10: 66.200000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 26.924370
+1500 unique source words - csls_knn_10 - Precision at k = 1: 53.400000
+2975 source words - csls_knn_10 - Precision at k = 5: 49.983193
+1500 unique source words - csls_knn_10 - Precision at k = 5: 68.466667
+2975 source words - csls_knn_10 - Precision at k = 10: 57.848739
+1500 unique source words - csls_knn_10 - Precision at k = 10: 73.466667
+
+start epoch 49
+iteration 0, loss 0.3517
+iteration 12000, loss 0.3378
+iteration 24000, loss 0.3467
+iteration 36000, loss 0.3391
+iteration 48000, loss 0.3473
+iteration 60000, loss 0.3372
+iteration 72000, loss 0.3414
+iteration 84000, loss 0.3461
+iteration 96000, loss 0.3452
+iteration 108000, loss 0.3323
+iteration 120000, loss 0.3393
+iteration 132000, loss 0.3400
+iteration 144000, loss 0.3414
+iteration 156000, loss 0.3415
+iteration 168000, loss 0.3432
+iteration 180000, loss 0.3428
+iteration 192000, loss 0.3393
+csls unsupervised metric score: 0.06132
+cross-lingual word similarity score average: 0.63203
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - nn - Precision at k = 1: 23.159664
+1500 unique source words - nn - Precision at k = 1: 45.933333
+2975 source words - nn - Precision at k = 5: 42.756303
+1500 unique source words - nn - Precision at k = 5: 61.133333
+2975 source words - nn - Precision at k = 10: 50.184874
+1500 unique source words - nn - Precision at k = 10: 66.600000
+found 2975 pairs of words in the dictionary. 0 other pairs contained at least one unknown word (0 in lang1, 0 in lang2)
+2975 source words - csls_knn_10 - Precision at k = 1: 27.193277
+1500 unique source words - csls_knn_10 - Precision at k = 1: 53.933333
+2975 source words - csls_knn_10 - Precision at k = 5: 50.352941
+1500 unique source words - csls_knn_10 - Precision at k = 5: 69.933333
+2975 source words - csls_knn_10 - Precision at k = 10: 58.588235
+1500 unique source words - csls_knn_10 - Precision at k = 10: 75.000000
